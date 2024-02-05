@@ -7,7 +7,7 @@ _Blair's repo for Farm Game._
 2. Custom Scripts made by hand
 4. Basic Unity Scripts and Assets
 5. Custom Assets
-3. [MIT License](LICENSE.txt)
+3. [MIT License](https://github.com/Blair-Ciolk-Student/farmGameOFFICIAL/blob/main/LICENSE)
 
 
 
