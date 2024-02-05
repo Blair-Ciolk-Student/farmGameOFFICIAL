@@ -15,7 +15,7 @@ _Blair's repo for Farm Game._
 
 1. This repo is not for download + play, this repo is simply for viewing and modding the original game code.
 2. Download .ZIP and extract
-3. "Add" Project to Unity
+3. Add Folder "FarmGame" to Unity
 
 
 # IMPORTANT NOTE
