@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3424997311
+    locked: 0
+  - name: Ground
+    uniqueID: 806861841
+    locked: 0
+  - name: Extras
+    uniqueID: 4004950209
+    locked: 0
+  - name: Clouds
+    uniqueID: 3781857013
+    locked: 0
+  - name: Player
+    uniqueID: 1837869619
+    locked: 0
+  - name: Seed
+    uniqueID: 2668093251
+    locked: 0
+  - name: Bounds
+    uniqueID: 2253778133
+    locked: 0
+  - name: Crop
+    uniqueID: 4088360855
+    locked: 0
+  - name: Fertilizer
+    uniqueID: 2504104639
+    locked: 0
