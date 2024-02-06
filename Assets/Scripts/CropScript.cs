@@ -65,6 +65,10 @@ public class CropScript : MonoBehaviour
                 }
 
             }
+            else if(cropStageNum == 3)
+            {
+                gm.activeScene++;
+            }
 
 
 
