@@ -1,14 +1,13 @@
-
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class CropScript : MonoBehaviour
 {
-    public GameManager gm;
-    public FertilizerScript fertScript;
+    
     [Header("Crop")]
     public GameObject Crop;
     public int cropStageNum;
+
 
     [Header("Pig")]
     public GameObject pig;
@@ -19,13 +18,27 @@ public class CropScript : MonoBehaviour
     public SpriteRenderer spriteRend;
     public Sprite[] spriteArr;
 
+
+    [Header("Script References")]
+    public GameManager gm;
+    public FertilizerScript fertScript;
+    public SceneChangeScript sceneChange;
+
     private void Start()
     {
-
         Crop = gameObject;
         pigCollider = pig.GetComponent<Collider2D>();
         cropStageNum = 0;
+  
 
+    }
+
+    private void Update()
+    {
+        if (cropStageNum == 3)
+        {
+            sceneChange.NextStageBtn.gameObject.SetActive(true);
+        }
     }
 
     void ChangeSprite(int stageNumber)
@@ -59,16 +72,9 @@ public class CropScript : MonoBehaviour
                     cropStageNum++;
                     ChangeSprite(cropStageNum);
                 }
-                else
-                {
-                    cropStageNum = 0;
-                }
+            }
+            
 
-            }
-            else if(cropStageNum == 3)
-            {
-                gm.activeScene++;
-            }
 
 
 
