@@ -10,9 +10,16 @@ public class TitleScreenScript : MonoBehaviour
         
     }
 
+
     public void LoadScene(string sceneName)
     {
+        
         SceneManager.LoadScene(sceneName);
         Debug.Log($"SceneLoaded:{sceneName}");
+    }
+
+    public void ExitApplication()
+    {
+        Application.Quit();
     }
 }

@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class CropScript : MonoBehaviour
 {
@@ -38,6 +38,8 @@ public class CropScript : MonoBehaviour
         if (cropStageNum == 3)
         {
             sceneChange.NextStageBtn.gameObject.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+
         }
     }
 
